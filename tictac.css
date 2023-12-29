@@ -1,0 +1,64 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: darkcyan;
+    text-align: center;
+}
+.container{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.game{
+    height: 50vmin;
+    width: 50vmin;
+    padding-top: 3vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    font-size: 9vmin;
+    border: none;
+    background-color: white;
+    color: rgb(237, 41, 41);
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: azure;
+    border: none;
+}
+.selectbtn{
+    height: 5vmin;
+    width: 5vmin;
+    border-radius: 1rem;
+    font-size: 3vmin;
+    border: none;
+    background-color: white;
+    color: rgb(237, 41, 41); 
+}
+#winner{
+    height: 10vmin;
+    padding: 4vmin;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.box:hover{
+    background-color: rgb(179, 179, 179);
+}
+/* .selectbtn:hover{
+    background-color: rgb(179, 179, 179);
+} */
+.selectbtn:active{
+    background-color: rgb(179, 179, 179);
+}
